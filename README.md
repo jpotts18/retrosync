@@ -6,6 +6,8 @@ RetroSync stores your cloud database locally and managers your pending API calls
 ###Setup
 You'll need to setup Active Android first in your app before using RetroSync. You can find those instructions on their [GitHub page](https://github.com/pardom/ActiveAndroid).
 
+Until this library is put into some kind of public repository it can be used by adding it as a module to any android project. Simply go into ```Project Settings -> + Module -> Gradle Module -> Install gradle dependencies.```
+
 ###Model
 In your model class, you'll want to extend SyncModel and expose all the fields that you want to save locally.
 
